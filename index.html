@@ -15,7 +15,7 @@ flag=1
 
 function f1()
 {
-    alert("ayos ayos")
+    alert("test")
 }
 function f()
 {
@@ -24,18 +24,32 @@ function f()
             Bn.style.top=364
             Bn.style.left=300
             flag=2
+
+        image.style.top = '450px';
+        image.style.left = '500px';
+        image.style.display = 'block';
+        image.style.width = '200px'; // width
+        image.style.height = '150px'; // height
         }
     else if(flag==2)
         {
             Bn.style.top=476
             Bn.style.left=78
             flag=3
+
+
         }
     else if(flag==3)
         {
             Bn.style.top=358
             Bn.style.left=147
             flag=4
+
+        image2.style.top = '420px';
+        image2.style.left = '315px';
+        image2.style.display = 'block';
+        image2.style.width = '50px'; // width
+        image2.style.height = '50px'; // height
         }
     else if(flag==4)
         {
@@ -135,15 +149,19 @@ var animateButton = function(e) {
 </script>
 </head>
 <body>
+
+  <img id="image" src="https://media.tenor.com/Rcl4uRH7FIkAAAAC/thanos-snap-emoji.gif" style="position: absolute; top: 100px; left: 100px; display: none;">
+
+  <img id="image2" src="https://media.tenor.com/yso9Ncqwm5UAAAAi/click-subscribe.gif" style="position: absolute; top: 100px; left: 100px; display: none;">
   <h1>text 1</h1>
 
 <img src="https://media.tenor.com/bAXg7rUfGCYAAAAd/sad-kitten.gif" height="200"/>
 <h1 style=""></h1>
 <div id="By" style="position:absolute; left:25%; top:370px; width:210px; height:210px;">
-  <input class="button" type="button" value=" 1 " onClick="f1()" style="color: black;" />
+  <input class="button" type="button" value=" 1 " onClick="f1()" style="color: white;" />
 </div>
 <div id="Bn" style="position:absolute;left:63%; top:370px; width:210px; height:210px;">
-<input class="button" type="button" value=" 2 " onmouseover="f()" style="color: black"/>
+<input class="button" type="button" value=" 2 " onmouseover="f()" style="color: white"/>
 
 </div>
   
