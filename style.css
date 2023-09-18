@@ -5,16 +5,16 @@ body {
 
 .button{
   padding:10px 15px;
-  font-size:15px;
-  font-family:arial;
+  font-size:20px;
+  font-family:lucida console;
   font-weight:bold;
   outline: black;
   border: none;
   border-radius: 10px;
   transition: 0.5s;
-  background-color:rgb(255, 0, 130);
-  color:white;
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.5);
+  background-color:rgb(155, 0, 255);
+  color:Pink;
+  box-shadow: 0 2px 25px rgba(155, 0, 255, 0.5);
 }
 
 .button:hover{
