@@ -1,12 +1,12 @@
 body {
     font-size:10px;
     text-align:center;
+    background-color: #e6e6fa;
 }
-
 .button{
   padding:10px 15px;
   font-size:20px;
-  font-family:lucida console;
+  font-family:"Lucida Console", monospace;
   font-weight:bold;
   outline: black;
   border: none;
